@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32901.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketTcpServer", "SocketTcpServer.csproj", "{1472CF7C-9557-4CCE-9171-5FBAEE6DA49D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{64E952D6-394A-4295-9283-D474A1A81A46}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{67B59757-1128-46CE-97C9-4D531888B5F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SocketTcpClient", "..\..\SocketTcpClient\SocketTcpClient.csproj", "{8B840667-BE6F-4E20-A277-4670CCFFD2E2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1472CF7C-9557-4CCE-9171-5FBAEE6DA49D} = {1472CF7C-9557-4CCE-9171-5FBAEE6DA49D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1472CF7C-9557-4CCE-9171-5FBAEE6DA49D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1472CF7C-9557-4CCE-9171-5FBAEE6DA49D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1472CF7C-9557-4CCE-9171-5FBAEE6DA49D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1472CF7C-9557-4CCE-9171-5FBAEE6DA49D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B840667-BE6F-4E20-A277-4670CCFFD2E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B840667-BE6F-4E20-A277-4670CCFFD2E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B840667-BE6F-4E20-A277-4670CCFFD2E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B840667-BE6F-4E20-A277-4670CCFFD2E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1472CF7C-9557-4CCE-9171-5FBAEE6DA49D} = {64E952D6-394A-4295-9283-D474A1A81A46}
+		{8B840667-BE6F-4E20-A277-4670CCFFD2E2} = {67B59757-1128-46CE-97C9-4D531888B5F1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAB48545-BA6D-46C8-A071-68C1671A06D5}
+	EndGlobalSection
+EndGlobal
